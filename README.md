@@ -23,7 +23,7 @@ It provides a simple interactive menu so you can install only what you need, no 
 * Beginner-friendly interactive setup
 * Automatic configuration
 * Multiple services in one script
-* Works on Ubuntu Server / VMs / Proxmox
+* Works on Ubuntu Server / VMs
 
 ---
 
@@ -220,9 +220,23 @@ docker logs <container_name>
 
 ---
 
+## Installers (GitHub + Web)
+
+Direct from web
+
+```
+curl -fsSL https://get.bloxtuan.com/bhs/install.sh -o install.sh && sudo bash install.sh
+```
+Direct From Github (source code can be viewed)
+
+```
+curl -fsSL https://raw.githubusercontent.com/HarithSheikh/basichomeserver/main/installer.sh -o install.sh && sudo bash install.sh
+```
+---
+
 # 🧩 Alternative (GUI Option)
 
-If you prefer a GUI, use CasaOS.
+If you prefer a GUI, use **CasaOS**.
 
 It provides:
 
